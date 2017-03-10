@@ -75,24 +75,13 @@ Yup, I do:
 ```
 Framework            Requests/sec  % from best
 ----------------------------------------------
-rack                     18544.85       100.0%
-syro                     15454.22       83.33%
-mustermann               15199.80       81.96%
-roda                     15042.26       81.11%
-cuba                     13948.11       75.21%
-hobbit                   13898.69       74.95%
-rack-response            13822.22       74.53%
-rambutan                 10804.74       58.26%
-brooklyn                  9938.15       53.59%
-hanami-router             9469.52       51.06%
-rackstep                  9089.18       49.01%
-nancy                     8808.90        47.5%
-nyny                      7720.06       41.63%
-rails                     5810.33       31.33%
-gin                       5549.02       29.92%
-sinatra                   4441.61       23.95%
-grape                     3345.01       18.04%
-ramaze                    1936.36       10.44%
+rack-response               89.28       100.0%
+rails                       89.81      100.59%
+grape                       88.97       99.65%
+hanami-router               88.46       99.08%
+rack                        88.55       99.18%
+roda                        88.26       98.86%
+sinatra                     88.35       98.96%
 ```
 <!-- speed_table_end -->
 
@@ -101,24 +90,13 @@ ramaze                    1936.36       10.44%
 ```
 Framework       Allocs/Req Memsize/Req
 --------------------------------------
-rack                    38        3256
-syro                    43        3536
-hobbit                  45        3808
-roda                    45        3752
-mustermann              51        4112
-cuba                    53        4072
-rack-response           56        5312
-brooklyn                69        6412
-nancy                   75        7644
-nyny                    82        8396
-rackstep                82        6008
-rambutan                85        6848
-hanami-router           90        7859
-rails                  113       10311
-gin                    198       17219
-sinatra                212       15783
-grape                  257       20236
-ramaze                 464       41360
+rack                    36        2720
+roda                    42        3480
+rack-response           52        3984
+hanami-router           64        4720
+rails                  119       10264
+sinatra                207       14344
+grape                  268       20704
 ```
 <!-- mem_table_end -->
 
